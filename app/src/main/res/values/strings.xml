@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Diplom</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vvod">Введите свои данные</string>
+    <string name="title_activity_main">Диетолог</string>
+    <string name="title_activity_sozd">Sozd</string>
+    <string name="title_activity_vuvod">Калькулятор идеального веса</string>
+    <string name="title_activity_sprod">Sprod</string>
+    <string name="title_activity_pprod">Pprod</string>
+    <string name="title_activity_sdiet">Sdiet</string>
+    <string name="title_activity_pdiet">Pdiet</string>
+
+</resources>
