@@ -18,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Vvod"
             android:label="@string/title_activity_vvod"
@@ -46,6 +47,7 @@
             android:name=".Pdiet"
             android:label="@string/title_activity_pdiet"
             android:theme="@style/AppTheme"></activity>
+
     </application>
 
 </manifest>
