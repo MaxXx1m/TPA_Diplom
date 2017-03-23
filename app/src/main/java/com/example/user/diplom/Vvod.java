@@ -40,25 +40,102 @@ public class Vvod extends AppCompatActivity {
                 Intent intent= new Intent(Vvod.this, Vuvod.class);
 
                 //Присвоение елементам переменнные через айди
-                RadioButton rb = (RadioButton)findViewById(R.id.radioButton7);
-                RadioButton rb2 = (RadioButton)findViewById(R.id.radioButton8);
+                FloatingActionButton fab1 = (FloatingActionButton) findViewById(fab);
                 EditText Ves =(EditText) findViewById(R.id.Vves);
                 EditText Rost = (EditText) findViewById(Vrost);
                 EditText Vozrast = (EditText) findViewById(R.id.Vvozrast);
+                RadioButton rb = (RadioButton)findViewById(R.id.radioButton7);
+                RadioButton rb2 = (RadioButton)findViewById(R.id.radioButton8);
+
+                //Переменные их преобразование и вылов ошибок
+                Integer VesI;
+                Integer RostI;
+                Integer VozrastI;
+                try {VesI = Integer.parseInt(Ves.getText().toString());
+                    RostI = Integer.parseInt(Rost.getText().toString());
+                    VozrastI = Integer.parseInt(Vozrast.getText().toString());}
+                catch (NumberFormatException e) {
+                    VesI= 0;
+                    RostI= 0;
+                    VozrastI= 0;}
+
+
+                //Тосты
+                Toast toastV1=Toast.makeText(getApplicationContext(),
+                        "Введите Вес!", Toast.LENGTH_SHORT);
+                Toast toastV2=Toast.makeText(getApplicationContext(),
+                        "Введите Возраст!", Toast.LENGTH_SHORT);
+                Toast toastR=Toast.makeText(getApplicationContext(),
+                        "Введите Рост!", Toast.LENGTH_SHORT);
+                Toast toastV1m=Toast.makeText(getApplicationContext(),
+                        "Слишком маленький вес!", Toast.LENGTH_SHORT);
+                Toast toastV2m=Toast.makeText(getApplicationContext(),
+                        "Слишком маленький возраст!", Toast.LENGTH_SHORT);
+                Toast toastR1m=Toast.makeText(getApplicationContext(),
+                        "Слишком маленький рост!", Toast.LENGTH_SHORT);
+                Toast toastV1X=Toast.makeText(getApplicationContext(),
+                        "Слишком большой вес!", Toast.LENGTH_SHORT);
+                Toast toastV2X=Toast.makeText(getApplicationContext(),
+                        "Слишком большой возраст!", Toast.LENGTH_SHORT);
+                Toast toastR1X=Toast.makeText(getApplicationContext(),
+                        "Слишком большой рост!", Toast.LENGTH_SHORT);
+                //Условия видимости фаба
+                //Заполненность полей
+                if (Ves.getText().toString().equals(""))
+                {toastV1.show();}
+                else if (Rost.getText().toString().equals(""))
+                {toastR.show();}
+                else if (Vozrast.getText().toString().equals(""))
+                {toastV2.show();}
+
+                //Минимумы
+                else if(VesI<25)
+                {toastV1m.show();}
+                else if(RostI<120)
+                {toastR1m.show();}
+                else if(VozrastI<15)
+                {toastV2m.show();}
+
+                //Максимумы
+                else if(VesI>300)
+                {toastV1X.show();}
+                else if(RostI>220)
+                {toastR1X.show();}
+                else if(VozrastI>80)
+                {toastV2X.show();}
+
+                else if(rb.isChecked()){
+                    intent.putExtra("Mujik","Мужской");
+                    intent.putExtra("Pp",1);
+                    intent.putExtra("Ves", Ves.getText().toString());
+                    intent.putExtra("Rost", Rost.getText().toString());
+                    intent.putExtra("Vozrast", Vozrast.getText().toString());
+
+                    //Конец интенда
+                    startActivity(intent);
+                } else if (rb2.isChecked()) {
+                    intent.putExtra("Mujik","Женский");
+                    intent.putExtra("Pp",0);
+                    intent.putExtra("Ves", Ves.getText().toString());
+                    intent.putExtra("Rost", Rost.getText().toString());
+                    intent.putExtra("Vozrast", Vozrast.getText().toString());
+
+                    //Конец интенда
+                    startActivity(intent);}
 
                 //Передача данных в вывод
-                if (rb.isChecked()) {
+               /* if (rb.isChecked()) {
                     intent.putExtra("Mujik","Мужской");
                     intent.putExtra("Pp",1); }else
                 if (rb2.isChecked()){
                     intent.putExtra("Mujik","Женский");
-                    intent.putExtra("Pp",0); }
-                intent.putExtra("Ves", Ves.getText().toString());
+                    intent.putExtra("Pp",0); }*/
+               /* intent.putExtra("Ves", Ves.getText().toString());
                 intent.putExtra("Rost", Rost.getText().toString());
                 intent.putExtra("Vozrast", Vozrast.getText().toString());
 
                 //Конец интенда
-              startActivity(intent);
+              startActivity(intent);*/
             }
         });
     }
@@ -70,16 +147,16 @@ public class Vvod extends AppCompatActivity {
     }
     //OnClick кнопки внизу (Временно)
     public void Heh(View view){
-        //Присвоение переменных через айди
+       /* //Присвоение переменных через айди
         FloatingActionButton fab1 = (FloatingActionButton) findViewById(fab);
         EditText Ves =(EditText) findViewById(R.id.Vves);
         EditText Rost = (EditText) findViewById(Vrost);
         EditText Vozrast = (EditText) findViewById(R.id.Vvozrast);
         RadioButton rb = (RadioButton)findViewById(R.id.radioButton7);
-        RadioButton rb2 = (RadioButton)findViewById(R.id.radioButton8);
+        RadioButton rb2 = (RadioButton)findViewById(R.id.radioButton8);*/
 
         //Переменные их преобразование и вылов ошибок
-        Integer VesI;
+       /* Integer VesI;
         Integer RostI;
         Integer VozrastI;
         try {VesI = Integer.parseInt(Ves.getText().toString());
@@ -88,11 +165,11 @@ public class Vvod extends AppCompatActivity {
          catch (NumberFormatException e) {
            VesI= 0;
            RostI= 0;
-           VozrastI= 0;}
+           VozrastI= 0;}*/
 
 
 
-        //Тосты
+       /* //Тосты
         Toast toastV1=Toast.makeText(getApplicationContext(),
                 "Введите Вес!", Toast.LENGTH_SHORT);
         Toast toastV2=Toast.makeText(getApplicationContext(),
@@ -110,11 +187,11 @@ public class Vvod extends AppCompatActivity {
         Toast toastV2X=Toast.makeText(getApplicationContext(),
                 "Слишком большой возраст!", Toast.LENGTH_SHORT);
         Toast toastR1X=Toast.makeText(getApplicationContext(),
-                "Слишком большой рост!", Toast.LENGTH_SHORT);
+                "Слишком большой рост!", Toast.LENGTH_SHORT);*/
 
         //Условия видимости фаба
         //Заполненность полей
-        if (Ves.getText().toString().equals(""))
+      /*  if (Ves.getText().toString().equals(""))
         {toastV1.show();}
         else if (Rost.getText().toString().equals(""))
         {toastR.show();}
@@ -141,7 +218,7 @@ public class Vvod extends AppCompatActivity {
 
         } else if (rb2.isChecked()) {
           }
-
+*/
 
 
 

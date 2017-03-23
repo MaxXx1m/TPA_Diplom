@@ -45,6 +45,14 @@
         <activity
             android:name=".Pdiet"
             android:label="@string/title_activity_pdiet"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Spisok"
+            android:label="Hello"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Creation"
+            android:label="@string/title_activity_creation"
             android:theme="@style/AppTheme"></activity>
     </application>
 
