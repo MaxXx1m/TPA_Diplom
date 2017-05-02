@@ -1,7 +1,10 @@
 package com.example.user.diplom;
 
 import android.content.ContentValues;
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+>>>>>>> origin/master
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -104,11 +107,18 @@ public class Sozd extends AppCompatActivity implements View.OnClickListener {
 
         ContentValues contentValues = new ContentValues();
         Cursor cursor2 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
+<<<<<<< HEAD
         Intent intent= new Intent(Sozd.this, Spisok.class);
 
         switch (v.getId()) {
             case R.id.btnAdd:
                 startActivity(intent);
+=======
+
+
+        switch (v.getId()) {
+            case R.id.btnAdd:
+>>>>>>> origin/master
                 contentValues.put(DataBaseHelper.KEY_NAME, name);
                 contentValues.put(DataBaseHelper.KEY_MAIL, email);
 

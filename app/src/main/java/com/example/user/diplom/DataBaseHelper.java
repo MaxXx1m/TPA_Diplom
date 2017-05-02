@@ -67,12 +67,20 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     int[] STARTDIET_DAYLYNORM = {600,800};
     int[] STARTDIET_FOODB1 = {1,0};
     int[] STARTDIET_FOODB2 = {0,2};
+<<<<<<< HEAD
     int[] STARTDIET_FOODB3 = {3,0};
+=======
+    int[] STARTDIET_FOODB3 = {0,0};
+>>>>>>> origin/master
     int[] STARTDIET_FOODD1 = {2,0};
     int[] STARTDIET_FOODD2 = {0,1};
     int[] STARTDIET_FOODD3 = {0,0};
     int[] STARTDIET_FOODS1 = {0,0};
+<<<<<<< HEAD
     int[] STARTDIET_FOODS2 = {2,0};
+=======
+    int[] STARTDIET_FOODS2 = {0,0};
+>>>>>>> origin/master
     int[] STARTDIET_FOODS3 = {1,2};
 
     /**
