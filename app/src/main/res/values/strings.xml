@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Diplom</string>
+    <string name="app_name">Диетолог</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -11,7 +11,12 @@
     <string name="title_activity_vuvod">Калькулятор идеального веса</string>
     <string name="title_activity_sprod">Sprod</string>
     <string name="title_activity_pprod">Pprod</string>
-    <string name="title_activity_sdiet">Sdiet</string>
+    <string name="title_activity_sdiet">Список Рационов</string>
     <string name="title_activity_pdiet">Pdiet</string>
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+    <string name="title_activity_creation">Создание нового Рациона</string>
 
 </resources>
