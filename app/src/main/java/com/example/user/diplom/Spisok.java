@@ -4,14 +4,20 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> origin/master
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import static com.example.user.diplom.DataBaseHelper.FOOD_NAME;
+<<<<<<< HEAD
 import static com.example.user.diplom.DataBaseHelper.FOOD_OPS;
 
 public class Spisok extends AppCompatActivity {
@@ -27,19 +33,30 @@ public class Spisok extends AppCompatActivity {
 
 
 
+=======
+
+public class Spisok extends AppCompatActivity {
+DataBaseHelper dataBaseHelper;
+>>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spisok);
+<<<<<<< HEAD
         dataBaseHelper = new DataBaseHelper(this);
         SQLiteDatabase sqLiteDatabase = dataBaseHelper.getWritableDatabase();
 
         final SQLiteDatabase database = dataBaseHelper.getWritableDatabase();
         final Intent answerIntent = new Intent();
+=======
+
+        final Intent intent= new Intent(Spisok.this, Sozd.class);
+>>>>>>> origin/master
         View.OnClickListener clicklist = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int editId = v.getId();
+<<<<<<< HEAD
 
 
                 final Cursor cursor1 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
@@ -66,17 +83,34 @@ public class Spisok extends AppCompatActivity {
                 setResult(RESULT_OK, answerIntent);
                 finish();
 
+=======
+                //   Button currEditTxt = Button.(editId);
+                intent.putExtra("BtnId",editId);
+                Toast toast = Toast.makeText(getApplicationContext(),
+                        "Id =" + editId , Toast.LENGTH_SHORT);
+                toast.show();
+                finish();
+>>>>>>> origin/master
             }
         };
 
 
         dataBaseHelper = new DataBaseHelper(this);
+<<<<<<< HEAD
         SQLiteDatabase sqLiteDatabase1 = dataBaseHelper.getWritableDatabase();
 
         SQLiteDatabase database1 = dataBaseHelper.getWritableDatabase();
 
         ContentValues contentValues = new ContentValues();
         final Cursor cursor2 = database1.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
+=======
+        SQLiteDatabase sqLiteDatabase = dataBaseHelper.getWritableDatabase();
+
+        SQLiteDatabase database = dataBaseHelper.getWritableDatabase();
+
+        ContentValues contentValues = new ContentValues();
+        final Cursor cursor2 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
+>>>>>>> origin/master
         cursor2.moveToFirst();
         do{
             //   i = ++i;

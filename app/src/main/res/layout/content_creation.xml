@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
+<<<<<<< HEAD
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -136,6 +137,21 @@
                     android:layout_gravity="right"
                     android:gravity="right" />
             </LinearLayout>
+=======
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:ems="10"
+                android:id="@+id/editText" />
+
+            <TextView
+                android:text="Завтрак"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19" />
+>>>>>>> origin/master
 
             <Button
                 android:text="Button"
@@ -155,6 +171,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/b3" />
 
+<<<<<<< HEAD
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -175,6 +192,13 @@
                     android:layout_weight="1"
                     android:gravity="right" />
             </LinearLayout>
+=======
+            <TextView
+                android:text="Обед"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+>>>>>>> origin/master
 
             <Button
                 android:text="Button"
@@ -194,6 +218,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/d3" />
 
+<<<<<<< HEAD
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -213,6 +238,13 @@
                     android:layout_weight="1"
                     android:gravity="right" />
             </LinearLayout>
+=======
+            <TextView
+                android:text="Ужин"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18" />
+>>>>>>> origin/master
 
             <Button
                 android:text="Button"

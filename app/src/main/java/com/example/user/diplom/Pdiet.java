@@ -39,6 +39,10 @@ public class Pdiet extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         Integer Btnid = getIntent().getExtras().getInt("BtnId");
 
         TextView tv2 = (TextView)  findViewById(R.id.Dname) ;
@@ -219,6 +223,12 @@ public class Pdiet extends AppCompatActivity {
                 break;
             }
         }while (cursor2.moveToNext());
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> origin/master
+>>>>>>> origin/master
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

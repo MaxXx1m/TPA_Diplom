@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+<<<<<<< HEAD
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -26,17 +27,32 @@ public class Creation extends AppCompatActivity implements View.OnClickListener 
     Integer Uj = 0;
     Integer bkk1 = 0, bkk2 = 0, bkk3 = 0, bkk4 = 0, bkk5 = 0, bkk6 = 0, bkk7 = 0, bkk8 = 0, bkk9 = 0;
     String LOG_TAG = "WTF";
+=======
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class Creation extends AppCompatActivity implements View.OnClickListener {
+    Button bb1,bb2,bb3,bd1,bd2,bd3,bs1,bs2,bs3;
+
+>>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_creation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
         final Intent intent = new Intent(Creation.this, Spisok.class);
         View.OnClickListener clicklist = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int editId = v.getId();
+<<<<<<< HEAD
                 switch (v.getId()) {
                     case b1:
                         casebut = 1;
@@ -76,16 +92,26 @@ public class Creation extends AppCompatActivity implements View.OnClickListener 
 
                 }
 
+=======
+>>>>>>> origin/master
                 //   Button currEditTxt = Button.(editId);
                 intent.putExtra("BtnId", editId);
                 Toast toast = Toast.makeText(getApplicationContext(),
                         "Id =" + editId, Toast.LENGTH_SHORT);
                 toast.show();
+<<<<<<< HEAD
                 startActivityForResult(intent, CHOOSEN);
             }
         };
 
         bb1 = (Button) findViewById(b1);
+=======
+                startActivity(intent);
+            }
+        };
+
+        bb1 = (Button) findViewById(R.id.b1);
+>>>>>>> origin/master
         bb1.setOnClickListener(clicklist);
 
         bb2 = (Button) findViewById(R.id.b2);
@@ -112,6 +138,7 @@ public class Creation extends AppCompatActivity implements View.OnClickListener 
         bs3 = (Button) findViewById(R.id.s3);
         bs3.setOnClickListener(clicklist);
 
+<<<<<<< HEAD
         TextView tmax = (TextView) findViewById(R.id.TitleMax);
         TextView smax = (TextView) findViewById(R.id.Max);
         TextView tmin = (TextView) findViewById(R.id.TitleMin);
@@ -128,6 +155,9 @@ public class Creation extends AppCompatActivity implements View.OnClickListener 
         tmin.setText(Integer.toString(Titlemin));
 
         smax.setText(Integer.toString(Titlemax));
+=======
+
+>>>>>>> origin/master
 
 
 
@@ -137,13 +167,17 @@ public class Creation extends AppCompatActivity implements View.OnClickListener 
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+<<<<<<< HEAD
 
 
                 //Tut budet sohranenie dannih
+=======
+>>>>>>> origin/master
             }
         });
     }
 
+<<<<<<< HEAD
     @Override
     public void onClick(View v) {
      /* *//* Cursor cursor2 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
@@ -186,10 +220,52 @@ public class Creation extends AppCompatActivity implements View.OnClickListener 
 
             case R.id.s3:
                 casebut = 9;
+=======
+   @Override
+    public void onClick(View v) {
+      /* // Cursor cursor2 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
+        Intent intent= new Intent(Creation.this, Spisok.class);
+        switch (v.getId()) {
+            case R.id.b1:
+              startActivity(intent);
+                break;
+
+            case R.id.b2:
+                startActivity(intent);
+                break;
+
+            case R.id.b3:
+                startActivity(intent);
+                break;
+
+            case R.id.d1:
+                startActivity(intent);
+                break;
+
+            case R.id.d2:
+                startActivity(intent);
+                break;
+
+            case R.id.d3:
+                startActivity(intent);
+                break;
+
+            case R.id.s1:
+                startActivity(intent);
+                break;
+
+            case R.id.s2:
+                startActivity(intent);
+                break;
+
+            case R.id.s3:
+                startActivity(intent);
+>>>>>>> origin/master
                 break;
 
         }*/
     }
+<<<<<<< HEAD
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -309,3 +385,6 @@ public class Creation extends AppCompatActivity implements View.OnClickListener 
         }
     }
 }
+=======
+}
+>>>>>>> origin/master

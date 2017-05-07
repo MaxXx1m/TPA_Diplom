@@ -1,7 +1,14 @@
 package com.example.user.diplom;
 
 import android.content.ContentValues;
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -77,6 +84,7 @@ public class Sozd extends AppCompatActivity implements View.OnClickListener {
         Log.d(LOG_TAG, " =================== ");
 
 
+<<<<<<< HEAD
     }
 
     void logCursor(Cursor cursor) {
@@ -94,6 +102,25 @@ public class Sozd extends AppCompatActivity implements View.OnClickListener {
         } else Log.d(LOG_TAG, "Cursor is null");
     }
 
+=======
+    }
+
+    void logCursor(Cursor cursor) {
+        if (cursor != null) {
+            if (cursor.moveToFirst()) {
+                String str;
+                do {
+                    str = "";
+                    for (String cn : cursor.getColumnNames()) {
+                        str = str.concat(cn + " = " + cursor.getString(cursor.getColumnIndex(cn)) + "; ");
+                    }
+                    Log.d(LOG_TAG, str);
+                } while (cursor.moveToNext());
+            }
+        } else Log.d(LOG_TAG, "Cursor is null");
+    }
+
+>>>>>>> origin/master
 
     @Override
     public void onClick(View v) {
@@ -104,11 +131,24 @@ public class Sozd extends AppCompatActivity implements View.OnClickListener {
 
         ContentValues contentValues = new ContentValues();
         Cursor cursor2 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         Intent intent= new Intent(Sozd.this, Spisok.class);
 
         switch (v.getId()) {
             case R.id.btnAdd:
                 startActivity(intent);
+<<<<<<< HEAD
+=======
+=======
+
+
+        switch (v.getId()) {
+            case R.id.btnAdd:
+>>>>>>> origin/master
+>>>>>>> origin/master
                 contentValues.put(DataBaseHelper.KEY_NAME, name);
                 contentValues.put(DataBaseHelper.KEY_MAIL, email);
 
