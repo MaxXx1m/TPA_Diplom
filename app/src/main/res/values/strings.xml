@@ -17,6 +17,17 @@
     <string name="item2">Item2</string>
     <string name="item3">Item3</string>
     <string name="item4">Item4</string>
+<<<<<<< HEAD
     <string name="title_activity_creation">Создание нового Рациона</string>
+=======
+<<<<<<< HEAD
+    <string name="title_activity_creation">Создание нового Рациона</string>
+=======
+<<<<<<< HEAD
+    <string name="title_activity_creation">Creation</string>
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 </resources>

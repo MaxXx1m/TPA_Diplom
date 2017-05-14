@@ -23,13 +23,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:orientation="vertical"
             android:id="@+id/ll5">
+=======
+<<<<<<< HEAD
+            android:orientation="vertical"
+            android:id="@+id/ll5">
+=======
+<<<<<<< HEAD
+            android:orientation="vertical"
+            android:id="@+id/ll5">
+=======
+            android:orientation="vertical" >
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 
             <TextView
                 android:text="TextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:id="@+id/OOPS"
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
@@ -41,6 +56,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/Dname"
+=======
+<<<<<<< HEAD
+                android:id="@+id/Dname"
+=======
+<<<<<<< HEAD
+                android:id="@+id/Dname"
+=======
+                android:id="@+id/textView19"
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
                 android:gravity="center_horizontal"
                 android:textSize="30sp" />
 
@@ -48,10 +74,28 @@
                 android:text="TextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
                 android:id="@+id/Dtype"
                 android:textSize="24sp"
                 android:gravity="center_horizontal"
                 android:layout_marginBottom="40dp" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                android:id="@+id/textView18"
+                android:textSize="24sp"
+                android:gravity="center_horizontal" />
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 
         </LinearLayout>
     </ScrollView>

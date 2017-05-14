@@ -19,6 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Vvod"
             android:label="@string/title_activity_vvod"
@@ -56,6 +57,10 @@
         <activity
             android:name=".Pdiet"
             android:label="@string/title_activity_pdiet"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"/>
         <activity
@@ -68,6 +73,21 @@
             android:label="@string/title_activity_creation"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait" />
+<<<<<<< HEAD
+=======
+=======
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Spisok"
+            android:label="Hello"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Creation"
+            android:label="@string/title_activity_creation"
+            android:theme="@style/AppTheme"></activity>
+
+>>>>>>> origin/master
+>>>>>>> origin/master
     </application>
 
 </manifest>

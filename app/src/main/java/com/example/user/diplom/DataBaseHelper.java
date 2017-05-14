@@ -12,7 +12,15 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     // путь к базе данных вашего приложения
    public static String DB_PATH = "/data/data/BD/databases/";
+<<<<<<< HEAD
    public static String DB_NAME = "bD6";
+=======
+<<<<<<< HEAD
+   public static String DB_NAME = "bD6";
+=======
+   public static String DB_NAME = "bD5";
+>>>>>>> origin/master
+>>>>>>> origin/master
    public static String TABLE_CONTACTS = "contacts2";
    public static String TABLE_FOOD = "food";
    public static String TABLE_DIET = "diet";
@@ -57,7 +65,15 @@ public class DataBaseHelper extends SQLiteOpenHelper {
      String[] STARTFOOD_TEXT = {"Котлета по-киевски — разновидность котлеты, представляющая собою отбитое куриное филе, в которое завёрнут кусочек холодного сливочного масла."
              ,"Я не знаю описания данного продукта но мне нужно протестировать максимальную длину текста и то как он будет выглядить с вертикальным листанием.Могу попробывать написать еще что то но в голову ничего не приходит. Потому я просто буду спамить одной буквой ёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёё"
              ,"СКОРО","СКОРО","НЕ СКОРО","6","7","8","9","10","11"};
+<<<<<<< HEAD
         int[] STARTFOOD_OPS = {291,168,0,0,0,0,0,0,0,0,0};
+=======
+<<<<<<< HEAD
+        int[] STARTFOOD_OPS = {291,168,0,0,0,0,0,0,0,0,0};
+=======
+        int[] STARTFOOD_OPS = {291,0,0,0,0,0,0,0,0,0,0};
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 
     //Заполнение базы данных рационов
@@ -67,12 +83,36 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     int[] STARTDIET_DAYLYNORM = {600,800};
     int[] STARTDIET_FOODB1 = {1,0};
     int[] STARTDIET_FOODB2 = {0,2};
+<<<<<<< HEAD
     int[] STARTDIET_FOODB3 = {3,0};
+=======
+<<<<<<< HEAD
+    int[] STARTDIET_FOODB3 = {3,0};
+=======
+<<<<<<< HEAD
+    int[] STARTDIET_FOODB3 = {3,0};
+=======
+    int[] STARTDIET_FOODB3 = {0,0};
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
     int[] STARTDIET_FOODD1 = {2,0};
     int[] STARTDIET_FOODD2 = {0,1};
     int[] STARTDIET_FOODD3 = {0,0};
     int[] STARTDIET_FOODS1 = {0,0};
+<<<<<<< HEAD
     int[] STARTDIET_FOODS2 = {2,0};
+=======
+<<<<<<< HEAD
+    int[] STARTDIET_FOODS2 = {2,0};
+=======
+<<<<<<< HEAD
+    int[] STARTDIET_FOODS2 = {2,0};
+=======
+    int[] STARTDIET_FOODS2 = {0,0};
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
     int[] STARTDIET_FOODS3 = {1,2};
 
     /**

@@ -40,21 +40,45 @@ public class Vvod extends AppCompatActivity {
                 Intent intent= new Intent(Vvod.this, Vuvod.class);
 
                 //Присвоение елементам переменнные через айди
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+                FloatingActionButton fab1 = (FloatingActionButton) findViewById(fab);
+>>>>>>> origin/master
+>>>>>>> origin/master
                 EditText Ves =(EditText) findViewById(R.id.Vves);
                 EditText Rost = (EditText) findViewById(Vrost);
                 EditText Vozrast = (EditText) findViewById(R.id.Vvozrast);
                 RadioButton rb = (RadioButton)findViewById(R.id.radioButton7);
                 RadioButton rb2 = (RadioButton)findViewById(R.id.radioButton8);
+<<<<<<< HEAD
                 RadioButton rB = (RadioButton)findViewById(R.id.rB);
                 RadioButton rB2 = (RadioButton)findViewById(R.id.rB2);
                 RadioButton rB3 = (RadioButton)findViewById(R.id.rB3);
+=======
+<<<<<<< HEAD
+                RadioButton rB = (RadioButton)findViewById(R.id.rB);
+                RadioButton rB2 = (RadioButton)findViewById(R.id.rB2);
+                RadioButton rB3 = (RadioButton)findViewById(R.id.rB3);
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 
                 //Переменные их преобразование и вылов ошибок
                 Integer VesI;
                 Integer RostI;
                 Integer VozrastI;
+<<<<<<< HEAD
                 Integer a = 0;
+=======
+<<<<<<< HEAD
+                Integer a = 0;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
                 try {VesI = Integer.parseInt(Ves.getText().toString());
                     RostI = Integer.parseInt(Rost.getText().toString());
                     VozrastI = Integer.parseInt(Vozrast.getText().toString());}
@@ -62,6 +86,10 @@ public class Vvod extends AppCompatActivity {
                     VesI= 0;
                     RostI= 0;
                     VozrastI= 0;}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
                 
                 if (rB.isChecked()){
                     a = 3;
@@ -71,6 +99,12 @@ public class Vvod extends AppCompatActivity {
                      a = 1;
                 }
                 
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> origin/master
+>>>>>>> origin/master
 
                 //Тосты
                 Toast toastV1=Toast.makeText(getApplicationContext(),
@@ -122,7 +156,15 @@ public class Vvod extends AppCompatActivity {
                     intent.putExtra("Ves", Ves.getText().toString());
                     intent.putExtra("Rost", Rost.getText().toString());
                     intent.putExtra("Vozrast", Vozrast.getText().toString());
+<<<<<<< HEAD
                     intent.putExtra("SJ", a);
+=======
+<<<<<<< HEAD
+                    intent.putExtra("SJ", a);
+=======
+
+>>>>>>> origin/master
+>>>>>>> origin/master
                     //Конец интенда
                     startActivity(intent);
                 } else if (rb2.isChecked()) {
@@ -131,7 +173,11 @@ public class Vvod extends AppCompatActivity {
                     intent.putExtra("Ves", Ves.getText().toString());
                     intent.putExtra("Rost", Rost.getText().toString());
                     intent.putExtra("Vozrast", Vozrast.getText().toString());
+<<<<<<< HEAD
                     intent.putExtra("SJ", a);
+=======
+
+>>>>>>> origin/master
                     //Конец интенда
                     startActivity(intent);}
 

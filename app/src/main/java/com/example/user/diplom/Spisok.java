@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -11,6 +12,22 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import static com.example.user.diplom.DataBaseHelper.FOOD_NAME;
+=======
+<<<<<<< HEAD
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> origin/master
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import static com.example.user.diplom.DataBaseHelper.FOOD_NAME;
+<<<<<<< HEAD
+>>>>>>> origin/master
 import static com.example.user.diplom.DataBaseHelper.FOOD_OPS;
 
 public class Spisok extends AppCompatActivity {
@@ -26,19 +43,42 @@ public class Spisok extends AppCompatActivity {
 
 
 
+<<<<<<< HEAD
+=======
+=======
+
+public class Spisok extends AppCompatActivity {
+DataBaseHelper dataBaseHelper;
+>>>>>>> origin/master
+>>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spisok);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         dataBaseHelper = new DataBaseHelper(this);
         SQLiteDatabase sqLiteDatabase = dataBaseHelper.getWritableDatabase();
 
         final SQLiteDatabase database = dataBaseHelper.getWritableDatabase();
         final Intent answerIntent = new Intent();
+<<<<<<< HEAD
+=======
+=======
+
+        final Intent intent= new Intent(Spisok.this, Sozd.class);
+>>>>>>> origin/master
+>>>>>>> origin/master
         View.OnClickListener clicklist = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int editId = v.getId();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
 
 
                 final Cursor cursor1 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
@@ -59,21 +99,53 @@ public class Spisok extends AppCompatActivity {
                     }
                 }while (cursor1.moveToNext());
 
+<<<<<<< HEAD
 
                 setResult(RESULT_OK, answerIntent);
                 finish();
 
+=======
+                Toast toast = Toast.makeText(getApplicationContext(),
+                        "Id =" + editId , Toast.LENGTH_SHORT);
+                toast.show();
+                setResult(RESULT_OK, answerIntent);
+                finish();
+
+=======
+                //   Button currEditTxt = Button.(editId);
+                intent.putExtra("BtnId",editId);
+                Toast toast = Toast.makeText(getApplicationContext(),
+                        "Id =" + editId , Toast.LENGTH_SHORT);
+                toast.show();
+                finish();
+>>>>>>> origin/master
+>>>>>>> origin/master
             }
         };
 
 
         dataBaseHelper = new DataBaseHelper(this);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
         SQLiteDatabase sqLiteDatabase1 = dataBaseHelper.getWritableDatabase();
 
         SQLiteDatabase database1 = dataBaseHelper.getWritableDatabase();
 
         ContentValues contentValues = new ContentValues();
         final Cursor cursor2 = database1.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
+<<<<<<< HEAD
+=======
+=======
+        SQLiteDatabase sqLiteDatabase = dataBaseHelper.getWritableDatabase();
+
+        SQLiteDatabase database = dataBaseHelper.getWritableDatabase();
+
+        ContentValues contentValues = new ContentValues();
+        final Cursor cursor2 = database.query(DataBaseHelper.TABLE_FOOD, null, null, null, null, null, null);
+>>>>>>> origin/master
+>>>>>>> origin/master
         cursor2.moveToFirst();
         do{
             //   i = ++i;
