@@ -85,14 +85,53 @@
                 android:id="@+id/Vvozrast" />
 
             <TextView
-                android:text="Пол"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView9"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_weight="1" />
+                android:id="@+id/textView20"
+                android:layout_weight="1"
+                android:text="Образ жизни"
+                android:layout_marginTop="12dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rB3"
+                    android:layout_weight="1"
+                    android:layout_marginTop="12dp"
+                    android:text="Сидячий" />
+
+                <RadioButton
+                    android:text="Умеренно-активный"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rB2"
+                    android:layout_weight="1"
+                    android:layout_marginTop="12dp"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:text="Активный"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rB"
+                    android:layout_weight="1"
+                    android:layout_marginTop="12dp" />
+
+                <TextView
+                    android:text="Пол"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="1" />
+            </RadioGroup>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -103,7 +142,7 @@
 
                 <RadioButton
                     android:text="Мужской"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton7"
                     android:checked="false"
@@ -122,16 +161,6 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_weight="1" />
-
-                <Button
-                    android:text="Button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button12"
-                    android:layout_weight="1"
-                    android:onClick="Heh"
-                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
-                    android:elevation="0dp" />
 
             </RadioGroup>
 

@@ -13,11 +13,56 @@
     tools:context="com.example.user.diplom.MainMenu"
     tools:showIn="@layout/app_bar_main_menu">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Калькулятор идеального веса высчитывает вес исходя из 2 формул - Формулы Креффа и Формулы Лоренца, где расчеты Формулы Креффа базируются на Росте и Возрасте, а Формула Лоренца базируется на Росте и Поле Пользователя"
-        />
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:paddingBottom="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView23" />
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2" />
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3" />
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button4" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>

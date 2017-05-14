@@ -41,6 +41,7 @@ public class MainMenu extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -89,11 +90,12 @@ public class MainMenu extends AppCompatActivity
             Intent intent=new Intent(MainMenu.this, Sdiet.class);
             startActivity(intent);
         } else if (id == R.id.nav_slideshow) {
+
+
+        }else if (id == R.id.nav_eat) {
             Intent intent=new Intent(MainMenu.this, Sprod.class);
             startActivity(intent);
-
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
