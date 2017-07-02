@@ -13,4 +13,46 @@
     tools:context="com.example.user.diplom.Pdiet"
     tools:showIn="@layout/activity_pdiet">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ll5">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/OOPS"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/accent_material_dark_1"
+                android:textSize="36sp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Dname"
+                android:gravity="center_horizontal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Dtype"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

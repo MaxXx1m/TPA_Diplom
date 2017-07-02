@@ -4,13 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logom"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainMenu"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,31 +22,51 @@
         <activity
             android:name=".Vvod"
             android:label="@string/title_activity_vvod"
-            android:theme="@style/AppTheme" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Sozd"
             android:label="@string/title_activity_sozd"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Vuvod"
             android:label="@string/title_activity_vuvod"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Sprod"
             android:label="@string/title_activity_sprod"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Pprod"
             android:label="@string/title_activity_pprod"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Sdiet"
             android:label="@string/title_activity_sdiet"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Pdiet"
             android:label="@string/title_activity_pdiet"
-            android:theme="@style/AppTheme"></activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Spisok"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Creation"
+            android:label="@string/title_activity_creation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SPdiet"
+            android:label="@string/title_activity_spdiet"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".Help"></activity>
     </application>
 
 </manifest>
