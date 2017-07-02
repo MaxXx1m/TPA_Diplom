@@ -9,14 +9,22 @@
     <string name="title_activity_main">Диетолог</string>
     <string name="title_activity_sozd">Sozd</string>
     <string name="title_activity_vuvod">Калькулятор идеального веса</string>
+<<<<<<< HEAD
     <string name="title_activity_sprod">Список Блюд</string>
     <string name="title_activity_pprod">Блюдо</string>
     <string name="title_activity_sdiet">Список Рационов</string>
     <string name="title_activity_pdiet">Рацион</string>
+=======
+    <string name="title_activity_sprod">Sprod</string>
+    <string name="title_activity_pprod">Pprod</string>
+    <string name="title_activity_sdiet">Список Рационов</string>
+    <string name="title_activity_pdiet">Pdiet</string>
+>>>>>>> origin/master
     <string name="item1">Item1</string>
     <string name="item2">Item2</string>
     <string name="item3">Item3</string>
     <string name="item4">Item4</string>
+<<<<<<< HEAD
     <string name="title_activity_creation">Создание нового Рациона</string>
     <string-array name="catlist">
         <item>Барсик</item>
@@ -26,4 +34,19 @@
     </string-array>
     <string name="Selected_combo_box"></string>
     <string name="title_activity_spdiet">Выбор Рациона</string>
+=======
+<<<<<<< HEAD
+    <string name="title_activity_creation">Создание нового Рациона</string>
+=======
+<<<<<<< HEAD
+    <string name="title_activity_creation">Создание нового Рациона</string>
+=======
+<<<<<<< HEAD
+    <string name="title_activity_creation">Creation</string>
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
+
+>>>>>>> origin/master
 </resources>

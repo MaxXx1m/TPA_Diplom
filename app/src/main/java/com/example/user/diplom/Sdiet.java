@@ -71,7 +71,11 @@ public class Sdiet extends AppCompatActivity {
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+<<<<<<< HEAD
                     Intent intent2 = new Intent(Sdiet.this, Vvod.class);
+=======
+                    Intent intent2 = new Intent(Sdiet.this, Pdiet.class);
+>>>>>>> origin/master
                     startActivity(intent2);
                 }
             });

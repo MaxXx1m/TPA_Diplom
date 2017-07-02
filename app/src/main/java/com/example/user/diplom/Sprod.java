@@ -81,12 +81,31 @@ public class Sprod extends AppCompatActivity implements View.OnClickListener {
 
 
 
+<<<<<<< HEAD
      /*   FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+=======
+<<<<<<< HEAD
+     /*   FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+=======
+<<<<<<< HEAD
+     /*   FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+=======
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Skoro", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
 */
 
 
@@ -100,5 +119,32 @@ public class Sprod extends AppCompatActivity implements View.OnClickListener {
 
 
         }
+<<<<<<< HEAD
     }
 
+=======
+<<<<<<< HEAD
+    }
+
+=======
+    }
+
+=======
+
+
+
+
+            }
+        });
+    }
+
+    @Override
+    public void onClick(View v) {
+
+
+        }
+    }
+
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
