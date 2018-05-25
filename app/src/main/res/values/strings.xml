@@ -1,29 +1,17 @@
 <resources>
-    <string name="app_name">Диетолог</string>
+    <string name="app_name">Diplom</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Помощь</string>
+    <string name="action_settings">Settings</string>
     <string name="title_activity_vvod">Введите свои данные</string>
     <string name="title_activity_main">Диетолог</string>
     <string name="title_activity_sozd">Sozd</string>
     <string name="title_activity_vuvod">Калькулятор идеального веса</string>
-    <string name="title_activity_sprod">Список Блюд</string>
-    <string name="title_activity_pprod">Блюдо</string>
-    <string name="title_activity_sdiet">Список Рационов</string>
-    <string name="title_activity_pdiet">Рацион</string>
-    <string name="item1">Item1</string>
-    <string name="item2">Item2</string>
-    <string name="item3">Item3</string>
-    <string name="item4">Item4</string>
-    <string name="title_activity_creation">Создание нового Рациона</string>
-    <string-array name="catlist">
-        <item>Барсик</item>
-        <item>Мурзик</item>
-        <item>Васька</item>
-        <item>Рыжик</item>
-    </string-array>
-    <string name="Selected_combo_box"></string>
-    <string name="title_activity_spdiet">Выбор Рациона</string>
+    <string name="title_activity_sprod">Sprod</string>
+    <string name="title_activity_pprod">Pprod</string>
+    <string name="title_activity_sdiet">Sdiet</string>
+    <string name="title_activity_pdiet">Pdiet</string>
+
 </resources>

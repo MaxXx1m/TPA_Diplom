@@ -26,15 +26,6 @@
             android:orientation="vertical"
             android:layout_weight="1">
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="1">
-
-            </LinearLayout>
-
             <TextView
                 android:text="Вес, кг"
                 android:layout_width="match_parent"
@@ -94,53 +85,14 @@
                 android:id="@+id/Vvozrast" />
 
             <TextView
+                android:text="Пол"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView20"
-                android:layout_weight="1"
-                android:text="Образ жизни"
-                android:layout_marginTop="12dp" />
-
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1" >
-
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/rB3"
-                    android:layout_weight="1"
-                    android:layout_marginTop="12dp"
-                    android:text="Сидячий" />
-
-                <RadioButton
-                    android:text="Умеренно-активный"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/rB2"
-                    android:layout_weight="1"
-                    android:layout_marginTop="12dp"
-                    android:checked="true" />
-
-                <RadioButton
-                    android:text="Активный"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/rB"
-                    android:layout_weight="1"
-                    android:layout_marginTop="12dp" />
-
-                <TextView
-                    android:text="Пол"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView9"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_weight="1" />
-            </RadioGroup>
+                android:id="@+id/textView9"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -151,7 +103,7 @@
 
                 <RadioButton
                     android:text="Мужской"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton7"
                     android:checked="false"
@@ -171,72 +123,16 @@
                     android:layout_alignParentStart="true"
                     android:layout_weight="1" />
 
-            </RadioGroup>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/tv1245"
-                android:layout_weight="1">
-
-                <TextView
-                    android:text="Тип телосложения"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginStart="9dp"
-                    android:id="@+id/textView41"
-                    android:layout_weight="6" />
-
                 <Button
-                    android:text=" ? "
-                    android:layout_width="wrap_content"
+                    android:text="Button"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/helpb"
+                    android:id="@+id/button12"
                     android:layout_weight="1"
-                    android:textColor="@color/accent_material_dark_1"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:textSize="18sp" />
+                    android:onClick="Heh"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:elevation="0dp" />
 
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                app:srcCompat="@drawable/vh1"
-                android:id="@+id/imageView15"
-                android:layout_weight="1"
-                android:visibility="gone" />
-
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1">
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/radioButton3"
-                    android:layout_weight="1"
-                    android:text="ECTOMORPH" />
-
-                <RadioButton
-                    android:text="ENDOMORPH"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/radioButton2" />
-
-                <RadioButton
-                    android:text="MEZOMORPH"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/radioButton"
-                    android:layout_weight="1"
-                    android:checked="true" />
             </RadioGroup>
 
         </LinearLayout>

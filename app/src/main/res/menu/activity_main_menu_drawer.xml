@@ -10,17 +10,11 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Рационы" />
+            android:title="Диеты" />
         <item
-            android:id="@+id/nav_eat"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Блюда" />
-       <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Продукты"
-           android:visible="false" />
-
+            android:title="База данных продуктов" />
     </group>
 
 </menu>
