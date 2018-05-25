@@ -22,13 +22,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
->>>>>>> origin/master
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -90,17 +83,10 @@
                     android:layout_width="163dp"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-<<<<<<< HEAD
                     android:ems="10"
                     android:id="@+id/editText"
                     android:layout_weight="0.35"
                     android:hint="Name" />
-=======
-                    android:text="Name"
-                    android:ems="10"
-                    android:id="@+id/editText"
-                    android:layout_weight="0.35" />
->>>>>>> origin/master
 
                 <TextView
                     android:text="0"
@@ -150,61 +136,22 @@
                     android:layout_gravity="right"
                     android:gravity="right" />
             </LinearLayout>
-<<<<<<< HEAD
 
             <Button
-=======
-<<<<<<< HEAD
-=======
-=======
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Name"
-                android:ems="10"
-                android:id="@+id/editText" />
-
-            <TextView
-                android:text="Завтрак"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView19" />
->>>>>>> origin/master
->>>>>>> origin/master
-
-            <Button
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b1" />
 
             <Button
-<<<<<<< HEAD
-=======
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b2" />
 
             <Button
-<<<<<<< HEAD
-=======
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b3" />
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
->>>>>>> origin/master
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -225,53 +172,22 @@
                     android:layout_weight="1"
                     android:gravity="right" />
             </LinearLayout>
-<<<<<<< HEAD
 
             <Button
-=======
-<<<<<<< HEAD
-=======
-=======
-            <TextView
-                android:text="Обед"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView17" />
->>>>>>> origin/master
->>>>>>> origin/master
-
-            <Button
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/d1" />
 
             <Button
-<<<<<<< HEAD
-=======
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/d2" />
 
             <Button
-<<<<<<< HEAD
-=======
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/d3" />
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
->>>>>>> origin/master
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -291,42 +207,18 @@
                     android:layout_weight="1"
                     android:gravity="right" />
             </LinearLayout>
-<<<<<<< HEAD
 
             <Button
-=======
-<<<<<<< HEAD
-=======
-=======
-            <TextView
-                android:text="Ужин"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView18" />
->>>>>>> origin/master
->>>>>>> origin/master
-
-            <Button
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/s1" />
 
             <Button
-<<<<<<< HEAD
-=======
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/s2" />
 
             <Button
-<<<<<<< HEAD
-=======
-                android:text="Button"
->>>>>>> origin/master
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/s3" />

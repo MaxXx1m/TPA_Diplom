@@ -11,24 +11,17 @@
         <activity
             android:name=".MainMenu"
             android:label="@string/app_name"
-<<<<<<< HEAD
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
-=======
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
->>>>>>> origin/master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Vvod"
             android:label="@string/title_activity_vvod"
-<<<<<<< HEAD
             android:screenOrientation="portrait" />
         <activity
             android:name=".Sozd"
@@ -74,73 +67,6 @@
             android:label="@string/title_activity_spdiet"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".Help"></activity>
-=======
-
-            android:screenOrientation="portrait"
-            >
-
-        </activity>
-
-        <activity
-            android:name=".Sozd"
-            android:label="@string/title_activity_sozd"
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Vuvod"
-            android:label="@string/title_activity_vuvod"
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Sprod"
-            android:label="@string/title_activity_sprod"
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Pprod"
-            android:label="@string/title_activity_pprod"
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Sdiet"
-            android:label="@string/title_activity_sdiet"
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Pdiet"
-            android:label="@string/title_activity_pdiet"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Spisok"
-            android:label="Hello"
-            android:theme="@style/Theme.AppCompat.Dialog"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Creation"
-            android:label="@string/title_activity_creation"
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait" />
-<<<<<<< HEAD
-=======
-=======
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".Spisok"
-            android:label="Hello"
-            android:theme="@style/Theme.AppCompat.Dialog" />
-        <activity
-            android:name=".Creation"
-            android:label="@string/title_activity_creation"
-            android:theme="@style/AppTheme"></activity>
-
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
     </application>
 
 </manifest>

@@ -173,13 +173,6 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
->>>>>>> origin/master
                 <TextView
                     android:text="Тип рациона"
                     android:layout_width="wrap_content"
@@ -199,14 +192,6 @@
                     android:layout_weight="0"
                     android:layout_gravity="right"
                     android:textColor="@color/accent_material_dark_1" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
             </TableRow>
         </TableLayout>
     </ScrollView>

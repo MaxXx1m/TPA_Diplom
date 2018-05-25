@@ -20,23 +20,15 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-<<<<<<< HEAD
         android:layout_alignParentStart="true"
         android:visibility="visible">
-=======
-        android:layout_alignParentStart="true">
->>>>>>> origin/master
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/spinner2"
-<<<<<<< HEAD
             android:paddingBottom="10dp"
             android:visibility="gone" />
-=======
-            android:paddingBottom="10dp" />
->>>>>>> origin/master
 
         <ScrollView
             android:layout_width="match_parent"
@@ -48,7 +40,6 @@
                 android:orientation="vertical" >
 
                 <TextView
-<<<<<<< HEAD
                     android:text="Выберите Рацион"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -59,15 +50,11 @@
                     android:onClick="onClick" />
 
                 <TextView
-=======
-                    android:text="TextView"
->>>>>>> origin/master
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView23" />
 
                 <Button
-<<<<<<< HEAD
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/button2"
@@ -84,24 +71,6 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/button4"
                     style="@style/Widget.AppCompat.Button.Borderless" />
-=======
-                    android:text="Button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button2" />
-
-                <Button
-                    android:text="Button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button3" />
-
-                <Button
-                    android:text="Button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button4" />
->>>>>>> origin/master
 
             </LinearLayout>
         </ScrollView>

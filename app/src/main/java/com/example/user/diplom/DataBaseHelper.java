@@ -12,19 +12,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     // путь к базе данных вашего приложения
    public static String DB_PATH = "/data/data/BD/databases/";
-<<<<<<< HEAD
    public static String DB_NAME = "bD992";
-=======
-<<<<<<< HEAD
-   public static String DB_NAME = "bD6";
-=======
-<<<<<<< HEAD
-   public static String DB_NAME = "bD6";
-=======
-   public static String DB_NAME = "bD5";
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
    public static String TABLE_CONTACTS = "contacts2";
    public static String TABLE_FOOD = "food";
    public static String TABLE_DIET = "diet";
@@ -49,16 +37,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     //Переменные для базы данных рационов
    public static final String DIET_ID = "_id";
-<<<<<<< HEAD
    public static final String DIET_NAME = "DIET_NAME";
    public static final String DIET_TYPE = "type";
    public static final String DIET_DAYLYNORM = "dayops";
    public static final String DIET_SELECTED = "DIET_SELECTED";
-=======
-   public static final String DIET_NAME = "name";
-   public static final String DIET_TYPE = "type";
-   public static final String DIET_DAYLYNORM = "dayops";
->>>>>>> origin/master
    public static final String DIET_FOODB1 = "food1";
    public static final String DIET_FOODB2 = "food2";
    public static final String DIET_FOODB3 = "food3";
@@ -71,7 +53,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
 
 //Заполнение базы данный блюд
-<<<<<<< HEAD
         int[] STARTFOOD_ID = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25};
      String[] STARTFOOD_NAME ={
     /*1*/         "Картофель, тушённый с грибами 250г"
@@ -198,62 +179,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     int[] STARTDIET_FOODS1 = {1};
     int[] STARTDIET_FOODS2 = {5};
     int[] STARTDIET_FOODS3 = {16};
-=======
-        int[] STARTFOOD_ID = {1,2,3,4,5,6,7,8,9,10,11};
-     String[] STARTFOOD_NAME ={"Котлета по-киевски","Ризото","СКОРО","СКОРО","НЕ СКОРО","666","7","8","9","10","11"};
-     String[] STARTFOOD_TEXT = {"Котлета по-киевски — разновидность котлеты, представляющая собою отбитое куриное филе, в которое завёрнут кусочек холодного сливочного масла."
-             ,"Я не знаю описания данного продукта но мне нужно протестировать максимальную длину текста и то как он будет выглядить с вертикальным листанием.Могу попробывать написать еще что то но в голову ничего не приходит. Потому я просто буду спамить одной буквой ёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёё"
-             ,"СКОРО","СКОРО","НЕ СКОРО","6","7","8","9","10","11"};
-<<<<<<< HEAD
-        int[] STARTFOOD_OPS = {291,168,0,0,0,0,0,0,0,0,0};
-=======
-<<<<<<< HEAD
-        int[] STARTFOOD_OPS = {291,168,0,0,0,0,0,0,0,0,0};
-=======
-        int[] STARTFOOD_OPS = {291,0,0,0,0,0,0,0,0,0,0};
->>>>>>> origin/master
->>>>>>> origin/master
-
-
-    //Заполнение базы данных рационов
-    int[] STARTDIET_ID = {1,2};
-    String[] STARTDIET_NAME={"STANDART","TEST"};
-    int[] STARTDIET_TYPE = {1,2};//1 - поддержание веса, 2 - сброс веса, 3 - набор веса
-    int[] STARTDIET_DAYLYNORM = {600,800};
-    int[] STARTDIET_FOODB1 = {1,0};
-    int[] STARTDIET_FOODB2 = {0,2};
-<<<<<<< HEAD
-    int[] STARTDIET_FOODB3 = {3,0};
-=======
-<<<<<<< HEAD
-    int[] STARTDIET_FOODB3 = {3,0};
-=======
-<<<<<<< HEAD
-    int[] STARTDIET_FOODB3 = {3,0};
-=======
-    int[] STARTDIET_FOODB3 = {0,0};
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
-    int[] STARTDIET_FOODD1 = {2,0};
-    int[] STARTDIET_FOODD2 = {0,1};
-    int[] STARTDIET_FOODD3 = {0,0};
-    int[] STARTDIET_FOODS1 = {0,0};
-<<<<<<< HEAD
-    int[] STARTDIET_FOODS2 = {2,0};
-=======
-<<<<<<< HEAD
-    int[] STARTDIET_FOODS2 = {2,0};
-=======
-<<<<<<< HEAD
-    int[] STARTDIET_FOODS2 = {2,0};
-=======
-    int[] STARTDIET_FOODS2 = {0,0};
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
-    int[] STARTDIET_FOODS3 = {1,2};
->>>>>>> origin/master
 
     /**
      * Конструктор
@@ -356,11 +281,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         db.execSQL("create table " + TABLE_FOOD + "(" + FOOD_ID + " integer primary key," + FOOD_NAME + " text," + FOOD_TEXT + " text," + FOOD_OPS + " integer" + ");");
 
         //База данных рационов
-<<<<<<< HEAD
         db.execSQL("create table " + TABLE_DIET + "(" + DIET_ID + " integer primary key," + DIET_NAME + " text," + DIET_DAYLYNORM + " integer," + DIET_SELECTED + " integer," + DIET_TYPE + " integer," + DIET_FOODB1 + " integer," + DIET_FOODB2 + " integer," + DIET_FOODB3 + " integer," + DIET_FOODD1 + " integer," + DIET_FOODD2 + " integer," + DIET_FOODD3 + " integer," + DIET_FOODS1 + " integer," + DIET_FOODS2 + " integer," + DIET_FOODS3 + " integer" + ");");
-=======
-        db.execSQL("create table " + TABLE_DIET + "(" + DIET_ID + " integer primary key," + DIET_NAME + " text," + DIET_DAYLYNORM + " integer," + DIET_TYPE + " integer," + DIET_FOODB1 + " integer," + DIET_FOODB2 + " integer," + DIET_FOODB3 + " integer," + DIET_FOODD1 + " integer," + DIET_FOODD2 + " integer," + DIET_FOODD3 + " integer," + DIET_FOODS1 + " integer," + DIET_FOODS2 + " integer," + DIET_FOODS3 + " integer" + ");");
->>>>>>> origin/master
 
         //Заполнение базы данных блюд
 
@@ -379,10 +300,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             contentValues.put(DIET_ID,STARTDIET_ID[i]);
             contentValues.put(DIET_NAME,STARTDIET_NAME[i]);
             contentValues.put(DIET_DAYLYNORM,STARTDIET_DAYLYNORM[i]);
-<<<<<<< HEAD
             contentValues.put(DIET_SELECTED,STARTDIET_SELECTED[i]);
-=======
->>>>>>> origin/master
             contentValues.put(DIET_TYPE,STARTDIET_TYPE[i]);
             contentValues.put(DIET_FOODB1,STARTDIET_FOODB1[i]);
             contentValues.put(DIET_FOODB2,STARTDIET_FOODB2[i]);
@@ -405,13 +323,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
        onCreate(db);
     }
 
-<<<<<<< HEAD
     public void update(String tableDiet, ContentValues barsikValues, String s, String strings) {
     }
 
 
-=======
->>>>>>> origin/master
     // Здесь можно добавить вспомогательные методы для доступа и получения данных из БД
     // вы можете возвращать курсоры через "return myDataBase.query(....)", это облегчит их использование
     // в создании адаптеров для ваших view

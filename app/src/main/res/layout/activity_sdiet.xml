@@ -20,11 +20,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-<<<<<<< HEAD
     <include layout="@layout/content_sdiet" />
-=======
-
->>>>>>> origin/master
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -33,10 +29,6 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_input_add" />
 
-<<<<<<< HEAD
 
-=======
-    <include layout="@layout/content_sdiet" />
->>>>>>> origin/master
 
 </android.support.design.widget.CoordinatorLayout>
