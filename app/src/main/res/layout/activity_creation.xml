@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.user.diplom.Vuvod">
+    tools:context="com.example.user.diplom.Creation">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,26 +21,15 @@
 
     </android.support.design.widget.AppBarLayout>
 
-<<<<<<< HEAD
-    <include layout="@layout/content_vuvod" />
+    <include layout="@layout/content_creation" />
 
-=======
-
-
-    <include layout="@layout/content_vuvod" />
->>>>>>> parent of 2a144ac... Maybe final.
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-<<<<<<< HEAD
-        app:srcCompat="@android:drawable/ic_dialog_email"
+        app:srcCompat="@drawable/ic_done_black_24dp"
         android:visibility="invisible" />
-=======
-        app:srcCompat="@drawable/ic_menu_send"
-        android:visibility="visible" />
->>>>>>> parent of 2a144ac... Maybe final.
 
 </android.support.design.widget.CoordinatorLayout>

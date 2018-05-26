@@ -146,7 +146,12 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <RadioGroup
+=======
+                <TextView
+                    android:text="Тип рациона"
+>>>>>>> parent of 2a144ac... Maybe final.
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     >
@@ -174,6 +179,19 @@
 
                 </RadioGroup>
 
+<<<<<<< HEAD
+=======
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Typ"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp"
+                    android:layout_weight="0"
+                    android:layout_gravity="right"
+                    android:textColor="@color/accent_material_dark_1" />
+>>>>>>> parent of 2a144ac... Maybe final.
             </TableRow>
         </TableLayout>
     </ScrollView>

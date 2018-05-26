@@ -11,6 +11,10 @@
         <activity
             android:name=".MainMenu"
             android:label="@string/app_name"
+<<<<<<< HEAD
+=======
+            android:screenOrientation="portrait"
+>>>>>>> parent of 2a144ac... Maybe final.
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +25,11 @@
         <activity
             android:name=".Vvod"
             android:label="@string/title_activity_vvod"
+<<<<<<< HEAD
             android:theme="@style/AppTheme" />
+=======
+            android:screenOrientation="portrait" />
+>>>>>>> parent of 2a144ac... Maybe final.
         <activity
             android:name=".Sozd"
             android:label="@string/title_activity_sozd"
@@ -45,7 +53,26 @@
         <activity
             android:name=".Pdiet"
             android:label="@string/title_activity_pdiet"
+<<<<<<< HEAD
             android:theme="@style/AppTheme"></activity>
+=======
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Spisok"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Creation"
+            android:label="@string/title_activity_creation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SPdiet"
+            android:label="@string/title_activity_spdiet"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".Help"></activity>
+>>>>>>> parent of 2a144ac... Maybe final.
     </application>
 
 </manifest>

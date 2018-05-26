@@ -89,9 +89,17 @@ public class MainMenu extends AppCompatActivity
             Intent intent=new Intent(MainMenu.this, Sdiet.class);
             startActivity(intent);
         } else if (id == R.id.nav_slideshow) {
+<<<<<<< HEAD
             Intent intent=new Intent(MainMenu.this, Sprod.class);
             startActivity(intent);
 
+=======
+
+
+        } else if (id == R.id.nav_eat) {
+            Intent intent = new Intent(MainMenu.this, Sprod.class);
+            startActivity(intent);
+>>>>>>> parent of 2a144ac... Maybe final.
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

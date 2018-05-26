@@ -123,6 +123,30 @@
                     android:layout_alignParentStart="true"
                     android:layout_weight="1" />
 
+<<<<<<< HEAD
+=======
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tv1245"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="Тип телосложения"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginStart="9dp"
+                    android:id="@+id/textView41"
+                    android:layout_weight="6" />
+
+>>>>>>> parent of 2a144ac... Maybe final.
                 <Button
                     android:text="Button"
                     android:layout_width="match_parent"
@@ -133,6 +157,22 @@
                     style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                     android:elevation="0dp" />
 
+<<<<<<< HEAD
+=======
+                <RadioButton
+                    android:text="ENDOMORPH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2" />
+
+                <RadioButton
+                    android:text="MEZOMORPH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton"
+                    android:layout_weight="1"
+                    android:checked="true" />
+>>>>>>> parent of 2a144ac... Maybe final.
             </RadioGroup>
 
         </LinearLayout>
